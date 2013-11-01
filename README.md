@@ -29,3 +29,17 @@ Example 12 Grid:
 	</div>
 </div>
 ```
+
+Example 10 Grid:
+```HTML
+<div class="container">
+	<div class="row">
+		<div class="m5">
+			<p>Content here.</p>
+		</div>
+		<div class="m5">
+			<p>Content here.</p>
+		</div>
+	</div>
+</div>
+```
