@@ -17,7 +17,7 @@ Easy to read. Easy to use.
 With Mango just use the M-class with a number. Make sure the total adds up to either 10 with the Layout.css file or 12 with the Layout2.css file.
 
 Example 12 Grid:
-<xmp>
+```HTML
 <div class="container">
 	<div class="row">
 		<div class="m6">
@@ -28,4 +28,4 @@ Example 12 Grid:
 		</div>
 	</div>
 </div>
-</xmp>
+```
