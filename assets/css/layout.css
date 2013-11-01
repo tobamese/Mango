@@ -1,0 +1,109 @@
+/*
+
+Author: Danny Florian
+10 Point Responsive Grid
+www.DannyFlorian.com
+Version: 1.0 Beta Release
+Notes: This is the framework, the bare bones of the grid. Make sure to wrap your M-classes with a Row class. The rows help clear your floats. When using Layout2.css make sure the M-classes add up to 10 within your row.
+
+*/
+
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container{
+	min-height: 100%;
+	margin: auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.row {
+	clear: both;
+}
+
+.m-box{
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin: 20px auto;
+	padding: 5px;
+	width: 100%;
+}
+
+.m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9, .m10{
+	float: left;
+	padding: 5px;
+}
+.m1{
+	width: 10%;
+}
+.m2 {
+	width: 20%;
+}
+.m3{
+	width: 30%;
+}
+.m4 {
+	width: 40%;
+}
+.m5 {
+	width: 50%;
+}
+.m6{
+	width: 60%;
+}
+.m7{
+	width: 70%;
+}
+.m8 {
+	width: 80%;
+}
+.m9 {
+	width: 90%;
+}
+.m10 {
+	width: 100%;
+}
+
+
+
+/*@group Responsive*/
+
+@media all and (min-width: 480px) and (max-width: 767px){
+
+.m1, .m2, .m3, .m4, .m5 {
+	width: 50%;
+}
+
+.m6, .m7, .m8, .m9 {
+	width: 100%;
+}
+
+	
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+
+	.m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9 {
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+/*@end*/
+
+

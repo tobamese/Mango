@@ -1,0 +1,154 @@
+/*
+
+Author: Danny Florian
+12 Point Responsive Grid
+www.DannyFlorian.com
+Version: 1.0 Beta Release
+Notes: This theme is just to make things look pretty. You should probably not include this in your project. Remember the purpose of Mango is to give you structure, not to style everything for you.
+
+
+*/
+
+body{
+	font-family: 'Helvetica Neue', Helvetica;
+	color: #333;
+}
+
+ul, ol, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #dedede;
+}
+
+a:hover{
+	color: #ff9234;
+}
+
+h1{
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+}
+
+.page {
+	padding-bottom: 100px;
+}
+
+.logo {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin: 20px 0 20px 0;
+}
+
+strong{
+	color: #fda762;
+	font-weight: 300;
+}
+
+em {
+	color: #c0c0c0;
+	font-size: 25px;
+}
+
+.nav {
+	background-color: #2b353f;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100px;
+}
+
+.header {
+	color: #fd913e;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.orange {
+	background-color: #fff;
+	border: 1px solid #fd913e;
+	border-radius: 5px;
+	color:#fd913e;
+	cursor: pointer;
+	font-family: 'Helvetica Neue';
+	font-size: 16px;
+	font-weight: bold;
+	padding: 7px 15px;
+	text-transform: uppercase;
+}
+
+.title{
+	margin-bottom: 30px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+
+.m-box{
+	color: #fff;
+}
+
+.demo{
+	border-radius: 4px;
+	padding: 20px 10px 20px 10px;
+	behavior: url(assets/js/ie/PIE.htc);
+}
+
+.grey{
+	color: #fe913f;
+	background-color: #e5e5e5;
+}
+
+.overlay-wrapper{
+	display: block;
+	float: none;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.overlay-title {
+	font-weight: 100;
+	color: #fff;
+}
+
+.overlay-content {
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-top: 40px;
+}
+
+.close {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 7px 20px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+.footer{
+	background-color: #aeaeae;
+	display: block;
+	margin-top: 40px;
+	width: 100%;
